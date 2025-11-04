@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ransomware Detection</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>🛡️ Ransomware Detection System</h1>
+    <p class="subtitle">Upload a file to check if it contains ransomware-like behavior</p>
+
+    <div class="upload-box">
+      <input type="file" id="fileInput" />
+      <button id="scanBtn">🔍 Scan File</button>
+    </div>
+
+    <div id="loading" class="hidden">⏳ Scanning file... please wait.</div>
+
+    <div id="result" class="result-box hidden"></div>
+
+    <h2>📜 Scan History</h2>
+    <table id="logsTable">
+      <thead>
+        <tr>
+          <th>Filename</th>
+          <th>Result</th>
+          <th>Timestamp</th>
+        </tr>
+      </thead>
+      <tbody id="logsBody"></tbody>
+    </table>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

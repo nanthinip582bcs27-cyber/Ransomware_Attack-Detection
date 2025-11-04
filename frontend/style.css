@@ -1,0 +1,97 @@
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background: #f2f6fa;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+
+.container {
+  width: 90%;
+  max-width: 700px;
+  background: white;
+  padding: 30px;
+  margin-top: 40px;
+  border-radius: 15px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+  text-align: center;
+}
+
+h1 {
+  color: #0078d4;
+}
+
+.subtitle {
+  color: #555;
+  margin-bottom: 20px;
+}
+
+.upload-box {
+  margin-bottom: 20px;
+}
+
+input[type="file"] {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
+
+button {
+  background-color: #0078d4;
+  color: white;
+  border: none;
+  padding: 10px 18px;
+  border-radius: 8px;
+  cursor: pointer;
+  margin-left: 10px;
+  transition: 0.3s;
+}
+
+button:hover {
+  background-color: #005fa3;
+}
+
+#loading {
+  color: #ff9800;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.result-box {
+  padding: 15px;
+  font-size: 1.1em;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+.safe {
+  background-color: #e8f5e9;
+  color: #2e7d32;
+}
+
+.danger {
+  background-color: #ffebee;
+  color: #c62828;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 15px;
+}
+
+th, td {
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+  text-align: left;
+}
+
+th {
+  background-color: #0078d4;
+  color: white;
+}
+
+.hidden {
+  display: none;
+}
